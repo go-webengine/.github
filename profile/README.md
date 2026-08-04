@@ -2,7 +2,13 @@
 
 <h1 align="center">go-webengine</h1>
 <p align="center">A pure-Go (CGO=0) headless web engine — give it a URL, get back an image of the page. No Chromium, no cgo.</p>
-<p align="center">[![site](https://img.shields.io/badge/site-go--webengine.github.io-0079A8?style=flat-square)](https://go-webengine.github.io/) [![docs](https://img.shields.io/badge/docs-mkdocs--material-0A6E96?style=flat-square&logo=materialformkdocs&logoColor=white)](https://go-webengine.github.io/docs/) ![repos](https://img.shields.io/badge/repos-1-0079A8?style=flat-square) ![Go](https://img.shields.io/badge/Go-1.26.4%2B-00ADD8?style=flat-square&logo=go&logoColor=white) ![license](https://img.shields.io/badge/license-BSD--3--Clause-0A6E96?style=flat-square)</p>
+<p align="center">
+  <a href="https://go-webengine.github.io/"><img src="https://img.shields.io/badge/site-go--webengine.github.io-0079A8?style=flat-square" alt="site"></a>
+  <a href="https://go-webengine.github.io/docs/"><img src="https://img.shields.io/badge/docs-mkdocs--material-0A6E96?style=flat-square&logo=materialformkdocs&logoColor=white" alt="docs"></a>
+  <img src="https://img.shields.io/badge/repos-1-0079A8?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/Go-1.26.4%2B-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go 1.26.4+">
+  <img src="https://img.shields.io/badge/license-BSD--3--Clause-0A6E96?style=flat-square" alt="license BSD-3-Clause">
+</p>
 
 ---
 
