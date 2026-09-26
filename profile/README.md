@@ -42,6 +42,7 @@ and [benchmark](https://github.com/go-webengine/engine/blob/main/bench/REPORT.md
 | Module | Kind | What it is | API |
 |---|---|---|:--:|
 | [`engine`](https://github.com/go-webengine/engine) | lib + cli | Fetch → DOM → CSS cascade → JavaScript → full box-model layout → paint text/gradients/images/SVG to `image.RGBA` / PNG. Pure Go, CGO=0. Ships a `render` CLI. | [ref](https://pkg.go.dev/github.com/go-webengine/engine) |
+| [`esbuildsandbox`](https://github.com/go-webengine/esbuildsandbox) | lib | A safe `ResolveDir` for esbuild's `pkg/api`. The bundler expands a **glob dynamic import** — `` import(`./${lang}/index.js`) `` — by walking `ResolveDir` on the **real filesystem** through its internal resolver, bypassing every `OnResolve`/`OnLoad` plugin. Whatever that directory is (`"/"` is a common default) is what gets walked, following symlinks. | [ref](https://pkg.go.dev/github.com/go-webengine/esbuildsandbox) |
 | [`browserproxy`](https://github.com/go-webengine/browserproxy) | cli | Remote-browser WebSocket service: renders server-side with the engine, streams frames + a click hit-map to a thin client, forwards clicks/scrolls/keys. SSRF-guarded. | [ref](https://pkg.go.dev/github.com/go-webengine/browserproxy) |
 
 > This list reflects the repos that actually exist in the org.
